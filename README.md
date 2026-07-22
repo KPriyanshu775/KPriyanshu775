@@ -1,12 +1,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img alt="Priyanshu Kumar banner" src="banner.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=3">
+  <img alt="Priyanshu Kumar banner" src="banner.svg?v=3" width="100%">
 </picture>
 
-<img src="lanyard.svg?v=1" width="260" alt="Priyanshu Kumar ID badge">
+<img src="lanyard.svg?v=2" width="260" alt="Priyanshu Kumar ID badge">
 
 <img src="https://komarev.com/ghpvc/?username=KPriyanshu775&label=Profile+Views&color=38bdf8&style=flat" alt="profile views">
 
@@ -55,8 +55,8 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshupoddar/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:poddarpriyanshu308@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-HANDLE)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KPriyanshu775)
 
 </div>
