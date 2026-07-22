@@ -67,11 +67,6 @@
   </rect>
 
   <!-- Name, letter pop-in -->
-  <text x="60" y="175" font-family="Georgia, 'Segoe Script', cursive" font-size="72" font-weight="700" fill="url(#nameGrad)">
-    <tspan opacity="0">Priyanshu Kumar
-      <animate attributeName="opacity" to="1" begin="0.4s" dur="0.01s" fill="freeze"/>
-    </tspan>
-  </text>
   <g font-family="Georgia, 'Segoe Script', cursive" font-size="72" font-weight="700" fill="url(#nameGrad)">
     <text x="60" y="175" opacity="0">P<animate attributeName="opacity" to="1" begin="0.5s" dur="0.15s" fill="freeze"/></text>
     <text x="102" y="175" opacity="0">r<animate attributeName="opacity" to="1" begin="0.62s" dur="0.15s" fill="freeze"/></text>
@@ -81,8 +76,7 @@
     <text x="228" y="175" opacity="0">n<animate attributeName="opacity" to="1" begin="1.10s" dur="0.15s" fill="freeze"/></text>
     <text x="268" y="175" opacity="0">s<animate attributeName="opacity" to="1" begin="1.22s" dur="0.15s" fill="freeze"/></text>
     <text x="300" y="175" opacity="0">h<animate attributeName="opacity" to="1" begin="1.34s" dur="0.15s" fill="freeze"/></text>
-    <text x="340" y="175" opacity="0">u</text>
-    <text x="0" y="175" opacity="0"> </text>
+    <text x="340" y="175" opacity="0">u<animate attributeName="opacity" to="1" begin="1.46s" dur="0.15s" fill="freeze"/></text>
     <text x="410" y="175" opacity="0">K
       <animate attributeName="opacity" to="1" begin="1.55s" dur="0.15s" fill="freeze"/>
     </text>
