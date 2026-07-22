@@ -1,0 +1,91 @@
+<svg width="420" height="560" viewBox="0 0 420 560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <clipPath id="avClip"><circle cx="210" cy="215" r="52"/></clipPath>
+  <linearGradient id="strapGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#155e75"/>
+    <stop offset="50%" stop-color="#0891b2"/>
+    <stop offset="100%" stop-color="#155e75"/>
+  </linearGradient>
+  <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0b1a2b"/>
+    <stop offset="100%" stop-color="#050c15"/>
+  </linearGradient>
+  <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#7dd3fc" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="70%" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.5"/>
+  </radialGradient>
+</defs>
+
+<!-- pivot group: drop-in then pendulum swing -->
+<g transform="translate(210,0)">
+  <animateTransform attributeName="transform" type="translate"
+    values="210,-260;210,-30;210,10;210,0"
+    keyTimes="0;0.55;0.8;1" dur="1.2s" fill="freeze"/>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;14;-14;0;9;-9;0;5;-5;0;3;-3;0"
+      keyTimes="0;0.08;0.16;0.24;0.32;0.40;0.48;0.56;0.64;0.72;0.80;0.90;1"
+      dur="6s" begin="1.2s" repeatCount="indefinite"/>
+
+    <!-- strap -->
+    <rect x="-16" y="0" width="32" height="150" fill="url(#strapGrad)" rx="4"/>
+    <text x="0" y="90" font-family="Consolas, Menlo, monospace" font-size="11" fill="#e0f2fe" text-anchor="middle" transform="rotate(90 0 90)" opacity="0.85">PRIYANSHU · KPRIYANSHU775</text>
+
+    <!-- clasp -->
+    <rect x="-14" y="145" width="28" height="18" rx="4" fill="#94a3b8"/>
+    <circle cx="0" cy="172" r="12" fill="none" stroke="#cbd5e1" stroke-width="4"/>
+
+    <!-- card -->
+    <g transform="translate(0,178)">
+      <rect x="-140" y="0" width="280" height="330" rx="22" fill="url(#cardGrad)" stroke="#164e63" stroke-width="2"/>
+      <rect x="-140" y="0" width="280" height="330" rx="22" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.4"/>
+
+      <!-- avatar ring + image -->
+      <circle cx="0" cy="72" r="60" fill="url(#ringGlow)"/>
+      <circle cx="0" cy="72" r="55" fill="none" stroke="#22d3ee" stroke-width="2">
+        <animate attributeName="stroke-opacity" values="0.9;0.3;0.9" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <g clip-path="url(#avClip)" transform="translate(-210,-143)">
+        <image href="https://avatars.githubusercontent.com/u/231112885?v=4" x="158" y="163" width="104" height="104" preserveAspectRatio="xMidYMid slice"/>
+      </g>
+
+      <text x="0" y="158" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#e0f2fe">Priyanshu Kumar</text>
+      <text x="0" y="182" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#7dd3fc">AI &amp; ML Engineer in Progress</text>
+      <text x="0" y="205" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#38bdf8">@KPriyanshu775</text>
+
+      <line x1="-110" y1="222" x2="110" y2="222" stroke="#164e63" stroke-width="1"/>
+
+      <!-- barcode -->
+      <g transform="translate(-100,238)" fill="#7dd3fc">
+        <rect x="0" y="0" width="2" height="34"/><rect x="5" y="0" width="1" height="34"/>
+        <rect x="9" y="0" width="3" height="34"/><rect x="15" y="0" width="1" height="34"/>
+        <rect x="19" y="0" width="2" height="34"/><rect x="24" y="0" width="4" height="34"/>
+        <rect x="31" y="0" width="1" height="34"/><rect x="35" y="0" width="2" height="34"/>
+        <rect x="40" y="0" width="1" height="34"/><rect x="44" y="0" width="3" height="34"/>
+        <rect x="50" y="0" width="2" height="34"/><rect x="55" y="0" width="1" height="34"/>
+        <rect x="59" y="0" width="4" height="34"/><rect x="66" y="0" width="1" height="34"/>
+        <rect x="70" y="0" width="2" height="34"/><rect x="75" y="0" width="3" height="34"/>
+        <rect x="81" y="0" width="1" height="34"/><rect x="85" y="0" width="2" height="34"/>
+        <rect x="90" y="0" width="1" height="34"/><rect x="94" y="0" width="3" height="34"/>
+        <rect x="100" y="0" width="2" height="34"/><rect x="105" y="0" width="1" height="34"/>
+        <rect x="109" y="0" width="4" height="34"/><rect x="116" y="0" width="1" height="34"/>
+      </g>
+      <text x="0" y="292" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="10" fill="#475569">ID · 231112885</text>
+
+      <!-- holographic shine sweep -->
+      <g clip-path="inset(0)">
+        <rect x="-140" y="0" width="280" height="330" rx="22" fill="url(#cardGrad)" opacity="0"/>
+      </g>
+      <rect x="-260" y="-20" width="120" height="370" fill="url(#shineGrad)" transform="rotate(20)">
+        <animateTransform attributeName="transform" type="translate" values="-30,0;480,0;480,0" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</g>
+</svg>

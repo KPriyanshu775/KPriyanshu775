@@ -1,0 +1,218 @@
+<svg width="1280" height="740" viewBox="0 0 1280 740" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+  <clipPath id="rounded"><rect x="0" y="0" width="1280" height="740" rx="28" ry="28"/></clipPath>
+  <clipPath id="avatarClip"><circle cx="1000" cy="360" r="150"/></clipPath>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050914"/>
+    <stop offset="55%" stop-color="#0a1730"/>
+    <stop offset="100%" stop-color="#04101f"/>
+  </linearGradient>
+  <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#38bdf8"/>
+    <stop offset="50%" stop-color="#22d3ee"/>
+    <stop offset="100%" stop-color="#818cf8">
+      <animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="6s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#7dd3fc" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#1e3a5f" stroke-width="0.5" opacity="0.35"/>
+  </pattern>
+</defs>
+
+<g clip-path="url(#rounded)">
+  <rect width="1280" height="740" fill="url(#bg)"/>
+  <rect width="1280" height="740" fill="url(#grid)"/>
+  <circle cx="150" cy="120" r="260" fill="url(#glow)"/>
+  <circle cx="1100" cy="620" r="220" fill="url(#glow)"/>
+
+  <!-- floating particles -->
+  <g fill="#38bdf8">
+    <circle cx="90" cy="640" r="3" opacity="0.7">
+      <animate attributeName="cy" values="640;520;640" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="680" r="2.5" opacity="0.6">
+      <animate attributeName="cy" values="680;560;680" dur="9s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="300" r="2" opacity="0.5">
+      <animate attributeName="cy" values="300;150;300" dur="8s" begin="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="8s" begin="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1210" cy="200" r="3" opacity="0.6" fill="#a78bfa">
+      <animate attributeName="cy" values="200;80;200" dur="10s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="10s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="640" cy="30" r="2.5" opacity="0.5" fill="#22d3ee">
+      <animate attributeName="cy" values="30;-40;30" dur="6.5s" begin="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="6.5s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- terminal line -->
+  <text x="60" y="70" font-family="Consolas, Menlo, monospace" font-size="20" fill="#38bdf8">
+    <tspan>user@dev:~$ </tspan><tspan fill="#94a3b8">cat README.md</tspan>
+  </text>
+  <rect x="322" y="55" width="11" height="20" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Name, letter pop-in -->
+  <text x="60" y="175" font-family="Georgia, 'Segoe Script', cursive" font-size="72" font-weight="700" fill="url(#nameGrad)">
+    <tspan opacity="0">Priyanshu Kumar
+      <animate attributeName="opacity" to="1" begin="0.4s" dur="0.01s" fill="freeze"/>
+    </tspan>
+  </text>
+  <g font-family="Georgia, 'Segoe Script', cursive" font-size="72" font-weight="700" fill="url(#nameGrad)">
+    <text x="60" y="175" opacity="0">P<animate attributeName="opacity" to="1" begin="0.5s" dur="0.15s" fill="freeze"/></text>
+    <text x="102" y="175" opacity="0">r<animate attributeName="opacity" to="1" begin="0.62s" dur="0.15s" fill="freeze"/></text>
+    <text x="134" y="175" opacity="0">i<animate attributeName="opacity" to="1" begin="0.74s" dur="0.15s" fill="freeze"/></text>
+    <text x="156" y="175" opacity="0">y<animate attributeName="opacity" to="1" begin="0.86s" dur="0.15s" fill="freeze"/></text>
+    <text x="190" y="175" opacity="0">a<animate attributeName="opacity" to="1" begin="0.98s" dur="0.15s" fill="freeze"/></text>
+    <text x="228" y="175" opacity="0">n<animate attributeName="opacity" to="1" begin="1.10s" dur="0.15s" fill="freeze"/></text>
+    <text x="268" y="175" opacity="0">s<animate attributeName="opacity" to="1" begin="1.22s" dur="0.15s" fill="freeze"/></text>
+    <text x="300" y="175" opacity="0">h<animate attributeName="opacity" to="1" begin="1.34s" dur="0.15s" fill="freeze"/></text>
+    <text x="340" y="175" opacity="0">u</text>
+    <text x="0" y="175" opacity="0"> </text>
+    <text x="410" y="175" opacity="0">K
+      <animate attributeName="opacity" to="1" begin="1.55s" dur="0.15s" fill="freeze"/>
+    </text>
+    <text x="455" y="175" opacity="0">umar
+      <animate attributeName="opacity" to="1" begin="1.67s" dur="0.15s" fill="freeze"/>
+    </text>
+  </g>
+
+  <!-- cycling role titles -->
+  <g font-family="Consolas, Menlo, monospace" font-size="26" fill="#e2e8f0">
+    <text x="60" y="215" opacity="0">&gt; AI &amp; Machine Learning Engineer in Progress
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.02;0.08;0.30;0.36;1" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="215" opacity="0">&gt; Python &amp; C++ Developer
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.38;0.64;0.66;1" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="60" y="215" opacity="0">&gt; Building Real-World Projects 🚀
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.70;0.72;0.98;0.99;1" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- tagline quote box -->
+  <g opacity="0">
+    <animate attributeName="opacity" to="1" begin="2.6s" dur="0.6s" fill="freeze"/>
+    <rect x="58" y="245" width="430" height="46" rx="10" fill="#0f2135" stroke="#22d3ee" stroke-width="1" opacity="0.8"/>
+    <text x="76" y="274" font-family="Consolas, Menlo, monospace" font-size="17" fill="#7dd3fc">"Code. Learn. Build. Repeat."</text>
+  </g>
+
+  <!-- tech pills -->
+  <g font-family="Consolas, Menlo, monospace" font-size="15" font-weight="600">
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.0s" dur="0.4s" fill="freeze"/>
+      <rect x="60" y="315" width="82" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="78" y="336" fill="#7dd3fc">Python</text></g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.15s" dur="0.4s" fill="freeze"/>
+      <rect x="152" y="315" width="66" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="168" y="336" fill="#7dd3fc">C++</text></g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.30s" dur="0.4s" fill="freeze"/>
+      <rect x="228" y="315" width="70" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="245" y="336" fill="#7dd3fc">Java</text></g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.45s" dur="0.4s" fill="freeze"/>
+      <rect x="308" y="315" width="66" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="325" y="336" fill="#7dd3fc">PHP</text></g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.60s" dur="0.4s" fill="freeze"/>
+      <rect x="384" y="315" width="78" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="400" y="336" fill="#7dd3fc">Flask</text></g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.75s" dur="0.4s" fill="freeze"/>
+      <rect x="60" y="357" width="80" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="76" y="378" fill="#7dd3fc">MySQL</text></g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="3.90s" dur="0.4s" fill="freeze"/>
+      <rect x="150" y="357" width="60" height="32" rx="16" fill="#0f2135" stroke="#38bdf8"/>
+      <text x="166" y="378" fill="#7dd3fc">Git</text></g>
+  </g>
+
+  <!-- animated stats bar -->
+  <g opacity="0">
+    <animate attributeName="opacity" to="1" begin="4.1s" dur="0.5s" fill="freeze"/>
+    <text x="60" y="425" font-family="Consolas, Menlo, monospace" font-size="14" fill="#94a3b8">Python</text>
+    <rect x="60" y="432" width="380" height="8" rx="4" fill="#0f2135"/>
+    <rect x="60" y="432" height="8" rx="4" fill="#38bdf8" width="0">
+      <animate attributeName="width" to="330" begin="4.3s" dur="1.2s" fill="freeze"/>
+    </rect>
+    <text x="60" y="460" font-family="Consolas, Menlo, monospace" font-size="14" fill="#94a3b8">Machine Learning</text>
+    <rect x="60" y="467" width="380" height="8" rx="4" fill="#0f2135"/>
+    <rect x="60" y="467" height="8" rx="4" fill="#22d3ee" width="0">
+      <animate attributeName="width" to="280" begin="4.5s" dur="1.2s" fill="freeze"/>
+    </rect>
+    <text x="60" y="495" font-family="Consolas, Menlo, monospace" font-size="14" fill="#94a3b8">Java / C++</text>
+    <rect x="60" y="502" width="380" height="8" rx="4" fill="#0f2135"/>
+    <rect x="60" y="502" height="8" rx="4" fill="#818cf8" width="0">
+      <animate attributeName="width" to="240" begin="4.7s" dur="1.2s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <!-- code editor card -->
+  <g opacity="0">
+    <animate attributeName="opacity" to="1" begin="4.9s" dur="0.5s" fill="freeze"/>
+    <rect x="58" y="540" width="470" height="160" rx="14" fill="#081527" stroke="#1e3a5f"/>
+    <circle cx="80" cy="562" r="6" fill="#ef4444"/>
+    <circle cx="100" cy="562" r="6" fill="#eab308"/>
+    <circle cx="120" cy="562" r="6" fill="#22c55e"/>
+    <g font-family="Consolas, Menlo, monospace" font-size="15">
+      <text x="76" y="600" fill="#818cf8">def<tspan fill="#e2e8f0"> buildDreams():</tspan>
+        <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.1s" fill="freeze"/>
+      </text>
+      <text x="96" y="628" fill="#e2e8f0" opacity="0">passion = "AI + Code"
+        <animate attributeName="opacity" to="1" begin="5.5s" dur="0.1s" fill="freeze"/>
+      </text>
+      <text x="96" y="656" fill="#e2e8f0" opacity="0">consistency = True
+        <animate attributeName="opacity" to="1" begin="5.9s" dur="0.1s" fill="freeze"/>
+      </text>
+      <text x="96" y="684" fill="#38bdf8" opacity="0">return passion + consistency
+        <animate attributeName="opacity" to="1" begin="6.3s" dur="0.1s" fill="freeze"/>
+      </text>
+    </g>
+  </g>
+
+  <!-- neon sign -->
+  <text x="60" y="720" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700" fill="#22d3ee" opacity="0.9" style="letter-spacing:2px">
+    KEEP CODING · KEEP GROWING
+    <animate attributeName="opacity" values="0.9;0.2;0.9;0.9;0.15;0.9" keyTimes="0;0.05;0.09;0.6;0.63;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- avatar hologram -->
+  <g>
+    <circle cx="1000" cy="360" r="158" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="1000" cy="360" r="180" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.25"/>
+    <clipPath id="revealClip">
+      <rect x="850" y="210" width="300" height="0">
+        <animate attributeName="height" from="0" to="300" begin="1s" dur="1.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <g clip-path="url(#avatarClip)">
+      <g clip-path="url(#revealClip)">
+        <image href="https://avatars.githubusercontent.com/u/231112885?v=4" x="850" y="210" width="300" height="300" preserveAspectRatio="xMidYMid slice"/>
+      </g>
+    </g>
+    <!-- continuous scan sweep -->
+    <clipPath id="scanClipCircle"><circle cx="1000" cy="360" r="150"/></clipPath>
+    <g clip-path="url(#scanClipCircle)">
+      <rect x="850" y="210" width="300" height="14" fill="url(#scanGrad)">
+        <animate attributeName="y" values="210;510;210" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- outer scanner sweeping full banner -->
+  <rect x="0" y="0" width="1280" height="18" fill="url(#scanGrad)" opacity="0.5">
+    <animate attributeName="y" values="0;740;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0.5" y="0.5" width="1279" height="739" rx="27.5" fill="none" stroke="#1e3a5f"/>
+</g>
+</svg>

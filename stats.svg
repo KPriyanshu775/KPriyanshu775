@@ -1,0 +1,44 @@
+<svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#818cf8"/>
+  </linearGradient>
+</defs>
+<rect width="480" height="220" rx="16" fill="#0a1730" stroke="#1e3a5f"/>
+<text x="24" y="36" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#e2e8f0">Priyanshu's GitHub Stats</text>
+
+<!-- rank ring -->
+<g transform="translate(90,130)">
+  <circle r="55" fill="none" stroke="#132a45" stroke-width="10"/>
+  <circle r="55" fill="none" stroke="url(#ringG)" stroke-width="10" stroke-linecap="round"
+    stroke-dasharray="345" stroke-dashoffset="345" transform="rotate(-90)">
+    <animate attributeName="stroke-dashoffset" from="345" to="95" dur="1.6s" begin="0.3s" fill="freeze"/>
+  </circle>
+  <text text-anchor="middle" y="6" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700" fill="#7dd3fc">B+</text>
+  <text text-anchor="middle" y="24" font-family="Consolas, Menlo, monospace" font-size="10" fill="#64748b">RANK</text>
+</g>
+
+<!-- stat rows -->
+<g font-family="Consolas, Menlo, monospace" font-size="14" fill="#cbd5e1">
+  <g transform="translate(200,80)" opacity="0">
+    <animate attributeName="opacity" to="1" begin="0.4s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="260,80;200,80" dur="0.5s" begin="0.4s" fill="freeze"/>
+    <text x="0" y="0">⭐ Total Stars</text><text x="230" y="0" text-anchor="end" fill="#38bdf8">2</text>
+  </g>
+  <g transform="translate(200,112)" opacity="0">
+    <animate attributeName="opacity" to="1" begin="0.6s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="260,112;200,112" dur="0.5s" begin="0.6s" fill="freeze"/>
+    <text x="0" y="0">📦 Public Repos</text><text x="230" y="0" text-anchor="end" fill="#38bdf8">11</text>
+  </g>
+  <g transform="translate(200,144)" opacity="0">
+    <animate attributeName="opacity" to="1" begin="0.8s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="260,144;200,144" dur="0.5s" begin="0.8s" fill="freeze"/>
+    <text x="0" y="0">👥 Followers</text><text x="230" y="0" text-anchor="end" fill="#38bdf8">1</text>
+  </g>
+  <g transform="translate(200,176)" opacity="0">
+    <animate attributeName="opacity" to="1" begin="1.0s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="260,176;200,176" dur="0.5s" begin="1.0s" fill="freeze"/>
+    <text x="0" y="0">🎓 MCA @ LPU</text><text x="230" y="0" text-anchor="end" fill="#38bdf8">'26</text>
+  </g>
+</g>
+</svg>

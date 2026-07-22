@@ -1,86 +1,66 @@
-<h1 align="center">Hi 👋, I'm Priyanshu Kumar</h1>
+<div align="center">
 
-<h3 align="center">
-AI & Machine Learning Engineer in Progress 🚀
-</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Priyanshu Kumar banner" src="banner.svg?v=1" width="100%">
+</picture>
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=MCA+Student+%40+LPU;Python+Developer;Machine+Learning+Enthusiast;Data+Science+Learner;Building+Real+World+Projects" />
-</p>
+<img src="lanyard.svg?v=1" width="260" alt="Priyanshu Kumar ID badge">
 
----
+<img src="https://komarev.com/ghpvc/?username=KPriyanshu775&label=Profile+Views&color=38bdf8&style=flat" alt="profile views">
 
-# 👨‍💻 About Me
+</div>
 
-- 🎓 MCA Student at Lovely Professional University
-- 🤖 Passionate about Artificial Intelligence & Machine Learning
-- 🐍 Python Developer
-- 💻 Learning DSA
-- 🌐 Interested in Web Development
-- 🚀 Building projects that solve real-world problems
+<br>
 
----
+## 🚀 Featured Projects
 
-# 🚀 Featured Projects
+| Project | Description |
+|---|---|
+| 🔹 **[Deepfake Detection (Vision Transformer)](https://github.com/KPriyanshu775)** | AI-powered deepfake detection system built with a Vision Transformer model |
+| 🔹 **[Earthquake Data Analysis](https://github.com/KPriyanshu775)** | Data analysis & visualization of earthquake datasets using Python |
+| 🔹 **[BillMeUp](https://github.com/KPriyanshu775/billmeup)** | Restaurant billing software written in Java |
+| 🔹 **[Medic Vault](https://github.com/KPriyanshu775/MediCVault)** | Patient record management system |
+| 🔹 **[Portfolio](https://github.com/KPriyanshu775/Portfolio-)** | Personal portfolio website |
 
-### 🔹 Deepfake Detection using Vision Transformer
+<br>
 
-AI-powered deepfake detection system.
+## 📊 GitHub Stats
 
-### 🔹 Earthquake Data Analysis
+<div align="center">
+<img src="stats.svg?v=1" width="48%" alt="GitHub stats">
+<img src="langs.svg?v=1" width="48%" alt="Top languages">
+</div>
 
-Data analysis and visualization using Python.
+## 🏆 Trophies
 
-### 🔹 BillMeUp
+<div align="center">
+<img src="trophies.svg?v=1" width="100%" alt="GitHub trophies">
+</div>
 
-Restaurant Billing Software.
+## 📈 Contribution Activity
 
-### 🔹 Medic Vault
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KPriyanshu775&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="contribution activity graph">
+</div>
 
-Patient Record Management System.
+## 🐍 Contribution Snake
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/KPriyanshu775/KPriyanshu775/output/github-snake-dark.svg" width="100%" alt="contribution snake animation">
+</div>
 
-# 🛠 Tech Stack
+## 🌐 Connect with Me
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)
-![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php)
-![Flask](https://img.shields.io/badge/Flask-black?style=for-the-badge&logo=flask)
-![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)
+<div align="center">
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-HANDLE)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KPriyanshu775)
 
-# 📈 GitHub Stats
+</div>
 
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=KPriyanshu775&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KPriyanshu775&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=KPriyanshu775&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🌐 Connect with Me
-
-- 💼 LinkedIn: *(add your LinkedIn URL)*
-- 📧 Email: *(add your email)*
-
----
-
-⭐ Thanks for visiting my profile!
+<div align="center">
+⭐️ <i>Always learning, always building.</i>
+</div>
