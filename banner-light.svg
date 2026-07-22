@@ -168,6 +168,22 @@
     <animate attributeName="y" values="0;740;0" dur="7s" repeatCount="indefinite"/>
   </rect>
 
+  <!-- quick stats box -->
+  <g opacity="0">
+    <animate attributeName="opacity" to="1" begin="2.0s" dur="0.6s" fill="freeze"/>
+    <rect x="850" y="555" width="300" height="90" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+    <g font-family="Consolas, Menlo, monospace" text-anchor="middle">
+      <text x="912" y="588" font-size="20" font-weight="700" fill="#0891b2">11</text>
+      <text x="912" y="608" font-size="11" fill="#64748b">Repos</text>
+      <line x1="962" y1="575" x2="962" y2="625" stroke="#dbeafe"/>
+      <text x="1012" y="588" font-size="20" font-weight="700" fill="#0891b2">2</text>
+      <text x="1012" y="608" font-size="11" fill="#64748b">Stars</text>
+      <line x1="1062" y1="575" x2="1062" y2="625" stroke="#dbeafe"/>
+      <text x="1112" y="588" font-size="20" font-weight="700" fill="#0891b2">1</text>
+      <text x="1112" y="608" font-size="11" fill="#64748b">Followers</text>
+    </g>
+  </g>
+
   <rect x="0.5" y="0.5" width="1279" height="739" rx="27.5" fill="none" stroke="#dbeafe"/>
 </g>
 </svg>
