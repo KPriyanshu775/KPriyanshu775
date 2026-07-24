@@ -1,12 +1,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=3">
-  <img alt="Priyanshu Kumar banner" src="banner.svg?v=3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
+  <img alt="Priyanshu Kumar banner" src="banner.svg?v=4" width="100%">
 </picture>
 
-<img src="lanyard.svg?v=2" width="260" alt="Priyanshu Kumar ID badge">
+<img src="lanyard.svg?v=4" width="260" alt="Priyanshu Kumar ID badge">
 
 <img src="https://komarev.com/ghpvc/?username=KPriyanshu775&label=Profile+Views&color=38bdf8&style=flat" alt="profile views">
 
